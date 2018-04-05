@@ -1,7 +1,7 @@
 # Properties
 ifeq ($(TARGET_BOARD_PLATFORM_VARIANT),msm8939)
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sys.fw.dex2oat_thread_count=4
+    ro.sys.fw.dex2oat_thread_count=2
 endif
 
 PRODUCT_PROPERTY_OVERRIDES += \
