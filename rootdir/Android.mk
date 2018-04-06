@@ -7,7 +7,7 @@ LOCAL_MODULE       := init.qcom.mem.sh
 LOCAL_MODULE_TAGS  := optional eng
 LOCAL_MODULE_CLASS := ETC
 LOCAL_SRC_FILES    := bin/init.qcom.mem.sh
-LOCAL_MODULE_PATH  := $(TARGET_OUT_VENDOR_EXECUTABLES)
+LOCAL_MODULE_PATH  := $(TARGER_VENDOR_MODULE)
 include $(BUILD_PREBUILT)
 
 # Init scripts

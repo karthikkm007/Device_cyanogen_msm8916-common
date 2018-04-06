@@ -15,7 +15,7 @@ PRODUCT_PACKAGES += \
 # Permissions
 ifeq ($(TARGET_BOARD_PLATFORM_VARIANT),msm8939)
 PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.opengles.aep.xml:vendor/etc/permissions/android.hardware.opengles.aep.xml
+    frameworks/native/data/etc/android.hardware.opengles.aep.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.opengles.aep.xml
 endif
 
 # Properties
